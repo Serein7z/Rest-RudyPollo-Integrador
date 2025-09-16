@@ -1,0 +1,28 @@
+# Ignora el directorio de compilación de Maven
+/target/
+
+# Ignora archivos y directorios de Eclipse
+.classpath
+.project
+.settings/
+
+# Ignora archivos y directorios de IntelliJ IDEA
+.idea/
+*.iml
+
+# Ignora archivos y directorios de VS Code
+.vscode/
+
+# Ignora archivos de log y temporales de Java
+*.log
+*.tmp
+
+
+
+
+#: Las líneas que comienzan con # son comentarios y se ignoran.
+#/target/: Ignora todo el contenido dentro del directorio target, que es donde Maven compila el código y empaqueta las aplicaciones (JARs, WARs, etc.).
+#.classpath, .project, .settings/: Ignora archivos y directorios específicos de configuraciones de Eclipse.
+#.idea/, *.iml: Ignora archivos y directorios específicos de configuraciones de IntelliJ IDEA.
+#.vscode/: Ignora la carpeta de configuración de VS Code para tu proyecto.
+#*.log, *.tmp: Ignora archivos con extensiones de log y temporales.
